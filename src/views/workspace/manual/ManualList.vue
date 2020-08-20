@@ -7,6 +7,7 @@ const curdHandle = manualService.curdHandle;
 export default {
   name: "ManualList",
   mounted() {
+    console.log("mounted");
     curdHandle
       .getList({ currentPage: 1, pageRecord: 10 })
       .then((res) => {

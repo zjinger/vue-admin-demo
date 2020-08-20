@@ -1,7 +1,10 @@
 <template>
   <div class="sl-layout-sidebar">
     <a-menu theme="dark" mode="inline" :inlineCollapsed="collapsed" :selectedKeys="selectedKeys">
-      <a-menu-item key="1">系统导航</a-menu-item>
+      <a-menu-item key="1">
+        <a-icon type="dashboard" />
+        <span>系统导航</span>
+      </a-menu-item>
       <template v-for="item in menuList">
         <a-menu-item v-if="!item.children||item.children.length==0" :key="item.fullPath">
           <router-link :to="{ name: item.name}">
