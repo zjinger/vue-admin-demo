@@ -6,6 +6,9 @@
 ### axios 基本使用，拦截配置
 ### 使用 less 
 
+## 效果图
+![效果图](https://github.com/zjinger/vue-admin-demo/blob/master/src/assets/vue-admin-demo.gif)
+
 ## Project setup
 ```
 npm install
